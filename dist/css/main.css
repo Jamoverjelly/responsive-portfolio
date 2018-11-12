@@ -30,7 +30,8 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 6rem;
+    text-shadow: -2px -2px 2px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5); }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
