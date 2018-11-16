@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Jamie's Responsive Portfolio Site",
   "main": "index.js",
-  "homepage": "https://jamoverjelly.github.io/responsive-portfolio",
+  "homepage": "https://jamoverjelly.github.io/responsive-portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node": "^11.0.0",
