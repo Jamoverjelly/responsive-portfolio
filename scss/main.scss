@@ -11,7 +11,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Oswald", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -96,6 +96,12 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+
+    p {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: $secondary-color;
+      font-size: 1.05rem;
+    }
   }
 
   .job-1 {
@@ -114,6 +120,20 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    h3 {
+      font-weight: 600;
+      color: #d13e83;
+    }
+
+    h5 {
+      color: #c95100;
+    }
+
+    ul {
+      font-weight: 400;
+    }
   }
 }
 

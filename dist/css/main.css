@@ -100,7 +100,7 @@ body {
   color: #4b9d5a;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Oswald", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background-img.jpeg);
@@ -173,6 +173,10 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+    .about-info .bio p {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #5a5a4b;
+      font-size: 1.05rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -182,7 +186,15 @@ main {
   .about-info .job {
     background: #fdfbeb;
     padding: 0.5rem;
-    border-bottom: #5a5a4b 5px solid; }
+    border-bottom: #5a5a4b 5px solid;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+    .about-info .job h3 {
+      font-weight: 600;
+      color: #d13e83; }
+    .about-info .job h5 {
+      color: #c95100; }
+    .about-info .job ul {
+      font-weight: 400; }
 
 .projects {
   display: grid;
