@@ -108,6 +108,7 @@ main {
   .previous-work-header {
     grid-area: pw-header;
     font-size: 1.5rem;
+    
   }
 
   .job-1 {
@@ -125,6 +126,7 @@ main {
   .job {
     background: lighten($primary-color, 2);
     padding: 0.5rem;
+    padding-right: 1.5rem;
     // border-radius: 0.05rem;
     // border-bottom: $secondary-color 5px solid;
     box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),

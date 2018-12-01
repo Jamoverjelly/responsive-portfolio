@@ -189,6 +189,7 @@ main {
   .about-info .job {
     background: #e5e5e5;
     padding: 0.5rem;
+    padding-right: 1.5rem;
     box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
     .about-info .job h3 {
@@ -295,7 +296,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "pw-header" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
