@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #5a5a4b;
+    background: #606060;
     box-shadow: -2px -2px 2px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
     transition: all 0.5s ease-out; }
   .menu-btn.close {
@@ -41,14 +41,14 @@
   .menu-nav {
     padding: 0;
     margin: 0;
-    background: #f7f1bd;
+    background: lightgray;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #faf6d4;
+    background: #E0E0E0;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -59,26 +59,26 @@
       background: url(../img/portrait.jpg);
       opacity: 1;
       border-radius: 50%;
-      border: solid 3px #4c4c3f; }
+      border: solid 3px #535353; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #5a5a4b; }
+      color: #606060; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
     font-size: 30px;
-    text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #4b9d5a;
+    color: #328246;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #5a5a4b; }
+      color: #606060;
+      text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5); }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -96,8 +96,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #faf6d4;
-  color: #4b9d5a;
+  background: #E0E0E0;
+  color: #328246;
   height: 100%;
   margin: 0;
   font-family: "Oswald", Tahoma, Geneva, Verdana, sans-serif;
@@ -114,7 +114,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(250, 246, 212, 0.85); }
+      background: rgba(224, 224, 224, 0.85); }
 
 h1,
 h2,
@@ -131,10 +131,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(251, 248, 221, 0.5); }
+    background: rgba(229, 229, 229, 0.5); }
 
 a {
-  color: #4b9d5a;
+  color: #328246;
   text-decoration: none; }
 
 header {
@@ -143,7 +143,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #5a5a4b; }
+  color: #606060; }
 
 main {
   padding: 4rem;
@@ -153,7 +153,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #5a5a4b;
+        color: #606060;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -163,20 +163,23 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "pw-header pw-header pw-header" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #5a5a4b 3px solid; }
+    border: #606060 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
     .about-info .bio p {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      color: #5a5a4b;
+      color: #606060;
       font-size: 1.05rem; }
+  .about-info .previous-work-header {
+    grid-area: pw-header;
+    font-size: 1.5rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -184,17 +187,21 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #fdfbeb;
+    background: #e5e5e5;
     padding: 0.5rem;
-    border-bottom: #5a5a4b 5px solid;
+    box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
     .about-info .job h3 {
       font-weight: 600;
-      color: #d13e83; }
+      color: #d13e83;
+      font-family: "Oswald", Tahoma, Geneva, Verdana, sans-serif; }
     .about-info .job h5 {
-      color: #c95100; }
+      color: #c95100;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
     .about-info .job ul {
       font-weight: 400; }
+      .about-info .job ul li {
+        padding-bottom: 0.5rem; }
 
 .projects {
   display: grid;
@@ -202,10 +209,10 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #5a5a4b solid; }
+    border: 3px #606060 solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #4b9d5a;
+      border-color: #328246;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -222,7 +229,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #5a5a4b;
+      background: #606060;
       color: #79b3a8; }
       .boxes div:hover span {
         color: #79b3a8; }
@@ -233,22 +240,23 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #5a5a4b;
+    background: #606060;
     color: #79b3a8; }
 
 .btn-dark {
   background: black;
-  color: #faf6d4; }
+  color: #E0E0E0; }
 
 .btn-light {
-  background: #f7f1bd;
-  color: #4b9d5a; }
+  background: #e8e8e8;
+  color: #328246; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #3e3e34;
-  color: #4b9d5a;
+  background: #474747;
+  opacity: 0.85;
+  color: #399450;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
