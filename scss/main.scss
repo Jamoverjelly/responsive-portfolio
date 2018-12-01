@@ -228,7 +228,7 @@ main {
   text-align: center;
   padding: 1rem;
   background: darken($secondary-color, 10);
-  opacity: 0.85;
+  // opacity: 0.85;
   color: lighten(set-text-color($primary-color), 5);
   height: 60px;
 }
