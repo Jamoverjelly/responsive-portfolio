@@ -295,6 +295,8 @@ main {
   .about-info {
     grid-template-areas: "bioimage" "bio" "pw-header" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
+    .about-info .job {
+      text-align: left; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 

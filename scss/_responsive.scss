@@ -63,6 +63,10 @@
       "job3";
 
     grid-template-columns: 1fr;
+
+    .job {
+      text-align: left;
+    }
   }
 
   .projects {
