@@ -47,7 +47,7 @@
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #E0E0E0;
+    background: #e0e0e0;
     transform: translate3d(0, 100%, 0);
     transition: all 0.3s ease-out; }
     .menu-branding.show {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #E0E0E0;
+  background: #e0e0e0;
   color: #328246;
   height: 100%;
   margin: 0;
@@ -192,10 +192,10 @@ main {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
     .about-info .job h3 {
       font-weight: 600;
-      color: #d13e83;
+      color: #328246;
       font-family: "Oswald", Tahoma, Geneva, Verdana, sans-serif; }
     .about-info .job h5 {
-      color: #c95100;
+      color: #606060;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
     .about-info .job ul {
       font-weight: 400; }
@@ -244,7 +244,7 @@ main {
 
 .btn-dark {
   background: black;
-  color: #E0E0E0; }
+  color: #e0e0e0; }
 
 .btn-light {
   background: #e8e8e8;
