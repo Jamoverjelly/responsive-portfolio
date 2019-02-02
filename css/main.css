@@ -200,7 +200,8 @@ main {
     .about-info .job ul {
       font-weight: 400; }
       .about-info .job ul li {
-        padding-bottom: 0.5rem; }
+        padding-bottom: 0.5rem;
+        color: #606060; }
 
 .projects {
   display: grid;
