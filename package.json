@@ -6,8 +6,8 @@
   "homepage": "https://jamoverjelly.github.io/responsive-portfolio/dist/",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "node": "^11.0.0",
-    "node-sass": "^4.10.0"
+    "node": "^11.9.0",
+    "node-sass": "^4.11.0"
   },
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
