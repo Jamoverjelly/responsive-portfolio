@@ -1,0 +1,87 @@
+// Widescreen Desktop
+@include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+// Desktop
+@include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// Tablets and small laptops
+@include mediaMd {
+  main {
+    align-items: center;
+    text-align: center;
+
+    h1.lg-heading {
+      font-size: 5rem;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
+  }
+
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0);
+
+    .portrait {
+      background: url(../img/2018-Professional-Headshot-Sm-150x150.png);
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "pw-header"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
+
+    .job {
+      text-align: left;
+    }
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Mobile
+@include mediaSm {
+  main#home h1 {
+    font-size: 3.5rem;
+    margin-top: 10vh;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}

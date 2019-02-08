@@ -1,0 +1,18 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "Jamie's Responsive Portfolio Site",
+  "main": "index.js",
+  "homepage": "https://jamoverjelly.github.io/responsive-portfolio/",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node": "^11.9.0",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "Jamie Strausbaugh",
+  "license": "MIT"
+}
