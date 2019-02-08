@@ -3,7 +3,7 @@
 ## Viewing The Project Online
 
 You can view a deployed version of my Personal Portfolio project at the following address:
-https://jamiestrausbaugh.com/dist/
+https://jamiestrausbaugh.com
 
 ## Required Dependencies
 
